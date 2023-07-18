@@ -28,7 +28,6 @@ export class AuthService {
 
               localStorage.setItem('sessionHeaders', JSON.stringify(sessionHeaders));
         
-              // Return the response body or any other data you need
               return response.body;
             })
         );
