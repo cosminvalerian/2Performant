@@ -1,0 +1,7 @@
+{
+    "/users": {
+      "target": "https://api.2performant.com",
+      "secure": true,
+      "changeOrigin": true
+    }
+  }

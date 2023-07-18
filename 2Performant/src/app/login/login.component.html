@@ -1,0 +1,24 @@
+<form [formGroup]="loginForm" class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4 bg-dark d-flex">
+            <h1 class="text-white text-center my-auto mx-auto">
+                2Performant Assignment
+            </h1>
+        </div>
+        <div class="col-sm-8 bg-info bg-gradient d-flex">
+            <div class="text-center my-auto mx-auto">
+                <div class="form-group">
+                    <h5>E-mail</h5>
+                    <input class="form-control border-0" formControlName="email" placeholder="example@email.com">
+                </div>
+                <div class="form-group mt-3">
+                    <h5>Password</h5>
+                    <input class="form-control border-0" formControlName="password" type="password" placeholder="********">
+                </div>
+                <div class="form-group mt-3">
+                    <button class="btn btn-secondary border-0" (click)="login()">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

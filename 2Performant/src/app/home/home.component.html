@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4 bg-dark d-flex">
+            <h1 class="text-white text-center my-auto mx-auto">
+                2Performant Assignment
+            </h1>
+        </div>
+        <div class="col-sm-8 bg-info bg-gradient d-flex">
+            <div class="text-center my-auto mx-auto">
+                <h1>{{ currentTime | date: 'medium' }}</h1>
+                <button class="btn btn-secondary mt-5" (click)="logout()">Logout</button>
+            </div>
+        </div>
+    </div>
+</div>
